@@ -26,6 +26,33 @@
 		54A0F9C6124127CC008878EF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A0F9C5124127CC008878EF /* SystemConfiguration.framework */; };
 		9C310C061826EF0000299F00 /* ttdnsd.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C310C051826EF0000299F00 /* ttdnsd.mm */; };
 		9C3FB27A183FEB97001B81FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C3FB279183FEB97001B81FA /* Main.storyboard */; };
+		9C52E446196C620C00FF98B1 /* atom.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E410196C620C00FF98B1 /* atom.c */; };
+		9C52E447196C620C00FF98B1 /* auth.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E412196C620C00FF98B1 /* auth.c */; };
+		9C52E448196C620C00FF98B1 /* chunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E414196C620C00FF98B1 /* chunk.c */; };
+		9C52E449196C620C00FF98B1 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E416196C620C00FF98B1 /* client.c */; };
+		9C52E44A196C620C00FF98B1 /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E418196C620C00FF98B1 /* config.c */; };
+		9C52E44B196C620C00FF98B1 /* dirent_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E41A196C620C00FF98B1 /* dirent_compat.c */; };
+		9C52E44C196C620C00FF98B1 /* diskcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E41C196C620C00FF98B1 /* diskcache.c */; };
+		9C52E44D196C620C00FF98B1 /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E41E196C620C00FF98B1 /* dns.c */; };
+		9C52E44E196C620C00FF98B1 /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E420196C620C00FF98B1 /* event.c */; };
+		9C52E44F196C620C00FF98B1 /* forbidden.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E422196C620C00FF98B1 /* forbidden.c */; };
+		9C52E450196C620C00FF98B1 /* fts_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E424196C620C00FF98B1 /* fts_compat.c */; };
+		9C52E451196C620C00FF98B1 /* ftsimport.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E426196C620C00FF98B1 /* ftsimport.c */; };
+		9C52E452196C620C00FF98B1 /* http_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E428196C620C00FF98B1 /* http_parse.c */; };
+		9C52E453196C620C00FF98B1 /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E42A196C620C00FF98B1 /* http.c */; };
+		9C52E454196C620C00FF98B1 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E42C196C620C00FF98B1 /* io.c */; };
+		9C52E455196C620C00FF98B1 /* local.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E42E196C620C00FF98B1 /* local.c */; };
+		9C52E456196C620C00FF98B1 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E430196C620C00FF98B1 /* log.c */; };
+		9C52E457196C620C00FF98B1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E432196C620C00FF98B1 /* main.c */; };
+		9C52E458196C620C00FF98B1 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E433196C620C00FF98B1 /* md5.c */; };
+		9C52E459196C620C00FF98B1 /* md5import.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E435196C620C00FF98B1 /* md5import.c */; };
+		9C52E45A196C620C00FF98B1 /* mingw.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E437196C620C00FF98B1 /* mingw.c */; };
+		9C52E45B196C620C00FF98B1 /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E439196C620C00FF98B1 /* object.c */; };
+		9C52E45C196C620C00FF98B1 /* parse_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E43B196C620C00FF98B1 /* parse_time.c */; };
+		9C52E45D196C620C00FF98B1 /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E43E196C620C00FF98B1 /* server.c */; };
+		9C52E45E196C620C00FF98B1 /* socks.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E440196C620C00FF98B1 /* socks.c */; };
+		9C52E45F196C620C00FF98B1 /* tunnel.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E442196C620C00FF98B1 /* tunnel.c */; };
+		9C52E460196C620C00FF98B1 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C52E444196C620C00FF98B1 /* util.c */; };
 		9C5C8AB91825468200ED829D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C8AB81825468200ED829D /* Default-568h@2x.png */; };
 		9C95E98618393629004559EB /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C95E98418393629004559EB /* LoggerClient.m */; };
 		E40F66010FB1E38600D92710 /* SocksProxy.mm in Sources */ = {isa = PBXBuildFile; fileRef = E40F65FF0FB1E38600D92710 /* SocksProxy.mm */; };
@@ -64,6 +91,60 @@
 		9C310C041826EF0000299F00 /* ttdnsd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ttdnsd.h; path = ttdnsd/ttdnsd.h; sourceTree = "<group>"; };
 		9C310C051826EF0000299F00 /* ttdnsd.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ttdnsd.mm; path = ttdnsd/ttdnsd.mm; sourceTree = "<group>"; };
 		9C3FB279183FEB97001B81FA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9C52E410196C620C00FF98B1 /* atom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = atom.c; path = polipo/atom.c; sourceTree = "<group>"; };
+		9C52E411196C620C00FF98B1 /* atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = atom.h; path = polipo/atom.h; sourceTree = "<group>"; };
+		9C52E412196C620C00FF98B1 /* auth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = auth.c; path = polipo/auth.c; sourceTree = "<group>"; };
+		9C52E413196C620C00FF98B1 /* auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = auth.h; path = polipo/auth.h; sourceTree = "<group>"; };
+		9C52E414196C620C00FF98B1 /* chunk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = chunk.c; path = polipo/chunk.c; sourceTree = "<group>"; };
+		9C52E415196C620C00FF98B1 /* chunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = chunk.h; path = polipo/chunk.h; sourceTree = "<group>"; };
+		9C52E416196C620C00FF98B1 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = client.c; path = polipo/client.c; sourceTree = "<group>"; };
+		9C52E417196C620C00FF98B1 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = client.h; path = polipo/client.h; sourceTree = "<group>"; };
+		9C52E418196C620C00FF98B1 /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = config.c; path = polipo/config.c; sourceTree = "<group>"; };
+		9C52E419196C620C00FF98B1 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = polipo/config.h; sourceTree = "<group>"; };
+		9C52E41A196C620C00FF98B1 /* dirent_compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dirent_compat.c; path = polipo/dirent_compat.c; sourceTree = "<group>"; };
+		9C52E41B196C620C00FF98B1 /* dirent_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dirent_compat.h; path = polipo/dirent_compat.h; sourceTree = "<group>"; };
+		9C52E41C196C620C00FF98B1 /* diskcache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = diskcache.c; path = polipo/diskcache.c; sourceTree = "<group>"; };
+		9C52E41D196C620C00FF98B1 /* diskcache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = diskcache.h; path = polipo/diskcache.h; sourceTree = "<group>"; };
+		9C52E41E196C620C00FF98B1 /* dns.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dns.c; path = polipo/dns.c; sourceTree = "<group>"; };
+		9C52E41F196C620C00FF98B1 /* dns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dns.h; path = polipo/dns.h; sourceTree = "<group>"; };
+		9C52E420196C620C00FF98B1 /* event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = event.c; path = polipo/event.c; sourceTree = "<group>"; };
+		9C52E421196C620C00FF98B1 /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = event.h; path = polipo/event.h; sourceTree = "<group>"; };
+		9C52E422196C620C00FF98B1 /* forbidden.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = forbidden.c; path = polipo/forbidden.c; sourceTree = "<group>"; };
+		9C52E423196C620C00FF98B1 /* forbidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = forbidden.h; path = polipo/forbidden.h; sourceTree = "<group>"; };
+		9C52E424196C620C00FF98B1 /* fts_compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fts_compat.c; path = polipo/fts_compat.c; sourceTree = "<group>"; };
+		9C52E425196C620C00FF98B1 /* fts_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fts_compat.h; path = polipo/fts_compat.h; sourceTree = "<group>"; };
+		9C52E426196C620C00FF98B1 /* ftsimport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ftsimport.c; path = polipo/ftsimport.c; sourceTree = "<group>"; };
+		9C52E427196C620C00FF98B1 /* ftsimport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ftsimport.h; path = polipo/ftsimport.h; sourceTree = "<group>"; };
+		9C52E428196C620C00FF98B1 /* http_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http_parse.c; path = polipo/http_parse.c; sourceTree = "<group>"; };
+		9C52E429196C620C00FF98B1 /* http_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = http_parse.h; path = polipo/http_parse.h; sourceTree = "<group>"; };
+		9C52E42A196C620C00FF98B1 /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = http.c; path = polipo/http.c; sourceTree = "<group>"; };
+		9C52E42B196C620C00FF98B1 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = http.h; path = polipo/http.h; sourceTree = "<group>"; };
+		9C52E42C196C620C00FF98B1 /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = io.c; path = polipo/io.c; sourceTree = "<group>"; };
+		9C52E42D196C620C00FF98B1 /* io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = io.h; path = polipo/io.h; sourceTree = "<group>"; };
+		9C52E42E196C620C00FF98B1 /* local.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = local.c; path = polipo/local.c; sourceTree = "<group>"; };
+		9C52E42F196C620C00FF98B1 /* local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = local.h; path = polipo/local.h; sourceTree = "<group>"; };
+		9C52E430196C620C00FF98B1 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = log.c; path = polipo/log.c; sourceTree = "<group>"; };
+		9C52E431196C620C00FF98B1 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = log.h; path = polipo/log.h; sourceTree = "<group>"; };
+		9C52E432196C620C00FF98B1 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = polipo/main.c; sourceTree = "<group>"; };
+		9C52E433196C620C00FF98B1 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5.c; path = polipo/md5.c; sourceTree = "<group>"; };
+		9C52E434196C620C00FF98B1 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = md5.h; path = polipo/md5.h; sourceTree = "<group>"; };
+		9C52E435196C620C00FF98B1 /* md5import.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5import.c; path = polipo/md5import.c; sourceTree = "<group>"; };
+		9C52E436196C620C00FF98B1 /* md5import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = md5import.h; path = polipo/md5import.h; sourceTree = "<group>"; };
+		9C52E437196C620C00FF98B1 /* mingw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mingw.c; path = polipo/mingw.c; sourceTree = "<group>"; };
+		9C52E438196C620C00FF98B1 /* mingw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mingw.h; path = polipo/mingw.h; sourceTree = "<group>"; };
+		9C52E439196C620C00FF98B1 /* object.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = object.c; path = polipo/object.c; sourceTree = "<group>"; };
+		9C52E43A196C620C00FF98B1 /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = object.h; path = polipo/object.h; sourceTree = "<group>"; };
+		9C52E43B196C620C00FF98B1 /* parse_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parse_time.c; path = polipo/parse_time.c; sourceTree = "<group>"; };
+		9C52E43C196C620C00FF98B1 /* parse_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = parse_time.h; path = polipo/parse_time.h; sourceTree = "<group>"; };
+		9C52E43D196C620C00FF98B1 /* polipo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = polipo.h; path = polipo/polipo.h; sourceTree = "<group>"; };
+		9C52E43E196C620C00FF98B1 /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = server.c; path = polipo/server.c; sourceTree = "<group>"; };
+		9C52E43F196C620C00FF98B1 /* server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = server.h; path = polipo/server.h; sourceTree = "<group>"; };
+		9C52E440196C620C00FF98B1 /* socks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = socks.c; path = polipo/socks.c; sourceTree = "<group>"; };
+		9C52E441196C620C00FF98B1 /* socks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = socks.h; path = polipo/socks.h; sourceTree = "<group>"; };
+		9C52E442196C620C00FF98B1 /* tunnel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tunnel.c; path = polipo/tunnel.c; sourceTree = "<group>"; };
+		9C52E443196C620C00FF98B1 /* tunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tunnel.h; path = polipo/tunnel.h; sourceTree = "<group>"; };
+		9C52E444196C620C00FF98B1 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = util.c; path = polipo/util.c; sourceTree = "<group>"; };
+		9C52E445196C620C00FF98B1 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = util.h; path = polipo/util.h; sourceTree = "<group>"; };
 		9C5C8AB81825468200ED829D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9C95E98318393629004559EB /* LoggerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = NSLogger/LoggerClient.h; sourceTree = "<group>"; };
 		9C95E98418393629004559EB /* LoggerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = NSLogger/LoggerClient.m; sourceTree = "<group>"; };
@@ -141,6 +222,7 @@
 		54074CF1124126F10036116E /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9C52E40F196C618E00FF98B1 /* polipo */,
 				9C95E9821839353D004559EB /* NSLogger */,
 				9C310C031826EEE900299F00 /* ttdnsd */,
 				49847DD912664F03001645B5 /* MOButton.h */,
@@ -187,6 +269,67 @@
 				9C310C051826EF0000299F00 /* ttdnsd.mm */,
 			);
 			name = ttdnsd;
+			sourceTree = "<group>";
+		};
+		9C52E40F196C618E00FF98B1 /* polipo */ = {
+			isa = PBXGroup;
+			children = (
+				9C52E410196C620C00FF98B1 /* atom.c */,
+				9C52E411196C620C00FF98B1 /* atom.h */,
+				9C52E412196C620C00FF98B1 /* auth.c */,
+				9C52E413196C620C00FF98B1 /* auth.h */,
+				9C52E414196C620C00FF98B1 /* chunk.c */,
+				9C52E415196C620C00FF98B1 /* chunk.h */,
+				9C52E416196C620C00FF98B1 /* client.c */,
+				9C52E417196C620C00FF98B1 /* client.h */,
+				9C52E418196C620C00FF98B1 /* config.c */,
+				9C52E419196C620C00FF98B1 /* config.h */,
+				9C52E41A196C620C00FF98B1 /* dirent_compat.c */,
+				9C52E41B196C620C00FF98B1 /* dirent_compat.h */,
+				9C52E41C196C620C00FF98B1 /* diskcache.c */,
+				9C52E41D196C620C00FF98B1 /* diskcache.h */,
+				9C52E41E196C620C00FF98B1 /* dns.c */,
+				9C52E41F196C620C00FF98B1 /* dns.h */,
+				9C52E420196C620C00FF98B1 /* event.c */,
+				9C52E421196C620C00FF98B1 /* event.h */,
+				9C52E422196C620C00FF98B1 /* forbidden.c */,
+				9C52E423196C620C00FF98B1 /* forbidden.h */,
+				9C52E424196C620C00FF98B1 /* fts_compat.c */,
+				9C52E425196C620C00FF98B1 /* fts_compat.h */,
+				9C52E426196C620C00FF98B1 /* ftsimport.c */,
+				9C52E427196C620C00FF98B1 /* ftsimport.h */,
+				9C52E428196C620C00FF98B1 /* http_parse.c */,
+				9C52E429196C620C00FF98B1 /* http_parse.h */,
+				9C52E42A196C620C00FF98B1 /* http.c */,
+				9C52E42B196C620C00FF98B1 /* http.h */,
+				9C52E42C196C620C00FF98B1 /* io.c */,
+				9C52E42D196C620C00FF98B1 /* io.h */,
+				9C52E42E196C620C00FF98B1 /* local.c */,
+				9C52E42F196C620C00FF98B1 /* local.h */,
+				9C52E430196C620C00FF98B1 /* log.c */,
+				9C52E431196C620C00FF98B1 /* log.h */,
+				9C52E432196C620C00FF98B1 /* main.c */,
+				9C52E433196C620C00FF98B1 /* md5.c */,
+				9C52E434196C620C00FF98B1 /* md5.h */,
+				9C52E435196C620C00FF98B1 /* md5import.c */,
+				9C52E436196C620C00FF98B1 /* md5import.h */,
+				9C52E437196C620C00FF98B1 /* mingw.c */,
+				9C52E438196C620C00FF98B1 /* mingw.h */,
+				9C52E439196C620C00FF98B1 /* object.c */,
+				9C52E43A196C620C00FF98B1 /* object.h */,
+				9C52E43B196C620C00FF98B1 /* parse_time.c */,
+				9C52E43C196C620C00FF98B1 /* parse_time.h */,
+				9C52E43D196C620C00FF98B1 /* polipo.h */,
+				9C52E43E196C620C00FF98B1 /* server.c */,
+				9C52E43F196C620C00FF98B1 /* server.h */,
+				9C52E440196C620C00FF98B1 /* socks.c */,
+				9C52E441196C620C00FF98B1 /* socks.h */,
+				9C52E442196C620C00FF98B1 /* tunnel.c */,
+				9C52E443196C620C00FF98B1 /* tunnel.h */,
+				9C52E444196C620C00FF98B1 /* util.c */,
+				9C52E445196C620C00FF98B1 /* util.h */,
+			);
+			name = polipo;
 			sourceTree = "<group>";
 		};
 		9C95E9821839353D004559EB /* NSLogger */ = {
@@ -284,17 +427,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C52E447196C620C00FF98B1 /* auth.c in Sources */,
 				9C95E98618393629004559EB /* LoggerClient.m in Sources */,
 				9C310C061826EF0000299F00 /* ttdnsd.mm in Sources */,
+				9C52E455196C620C00FF98B1 /* local.c in Sources */,
+				9C52E456196C620C00FF98B1 /* log.c in Sources */,
+				9C52E44B196C620C00FF98B1 /* dirent_compat.c in Sources */,
+				9C52E458196C620C00FF98B1 /* md5.c in Sources */,
 				E40F66010FB1E38600D92710 /* SocksProxy.mm in Sources */,
+				9C52E45D196C620C00FF98B1 /* server.c in Sources */,
 				54122F1B10D88D4900836166 /* SocksProxyController.mm in Sources */,
+				9C52E44D196C620C00FF98B1 /* dns.c in Sources */,
+				9C52E450196C620C00FF98B1 /* fts_compat.c in Sources */,
+				9C52E448196C620C00FF98B1 /* chunk.c in Sources */,
+				9C52E454196C620C00FF98B1 /* io.c in Sources */,
 				5463365810DABA8E00D3A3AE /* AppDelegate.mm in Sources */,
+				9C52E45E196C620C00FF98B1 /* socks.c in Sources */,
 				5463365A10DABA8E00D3A3AE /* main.mm in Sources */,
+				9C52E44C196C620C00FF98B1 /* diskcache.c in Sources */,
+				9C52E449196C620C00FF98B1 /* client.c in Sources */,
 				542A644E1241261A003497CD /* SocksProxyController_TableView.mm in Sources */,
 				542A644F1241261A003497CD /* UIDevice_Extended.mm in Sources */,
+				9C52E460196C620C00FF98B1 /* util.c in Sources */,
+				9C52E45F196C620C00FF98B1 /* tunnel.c in Sources */,
+				9C52E453196C620C00FF98B1 /* http.c in Sources */,
+				9C52E44E196C620C00FF98B1 /* event.c in Sources */,
+				9C52E446196C620C00FF98B1 /* atom.c in Sources */,
 				49847DDD12664F03001645B5 /* MOButton.mm in Sources */,
+				9C52E457196C620C00FF98B1 /* main.c in Sources */,
+				9C52E451196C620C00FF98B1 /* ftsimport.c in Sources */,
 				49847DDE12664F03001645B5 /* MOGlassButton.mm in Sources */,
+				9C52E45A196C620C00FF98B1 /* mingw.c in Sources */,
+				9C52E45B196C620C00FF98B1 /* object.c in Sources */,
 				49720A8B127C1B37001873A0 /* ColorC.mm in Sources */,
+				9C52E44A196C620C00FF98B1 /* config.c in Sources */,
+				9C52E45C196C620C00FF98B1 /* parse_time.c in Sources */,
+				9C52E44F196C620C00FF98B1 /* forbidden.c in Sources */,
+				9C52E452196C620C00FF98B1 /* http_parse.c in Sources */,
+				9C52E459196C620C00FF98B1 /* md5import.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
